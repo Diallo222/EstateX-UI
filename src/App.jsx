@@ -1,7 +1,7 @@
 import React , { useState } from 'react'
 import { createBrowserRouter , RouterProvider } from 'react-router-dom'
 import { Home, Layout } from './pages/main'
-import { List } from './pages/post'
+import { PostDetail, PostList } from './pages/post'
 
 function App() {
   const router = createBrowserRouter([
@@ -15,8 +15,13 @@ function App() {
         },
         {
           path: "/list",
-          element: <List />,
+          element: <PostList />,
           // loader: listLoader,
+        },
+        {
+          path: "/:id",
+          element: <PostDetail />,
+          // loader: postLoader,
         },
       ],
     },

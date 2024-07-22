@@ -1,5 +1,3 @@
 import SearchBar from "./SearchBar";
-
-export {
-    SearchBar
-}
+import Filter from "./Filter";
+export { SearchBar, Filter };
