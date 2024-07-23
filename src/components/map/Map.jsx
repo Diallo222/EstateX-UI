@@ -12,8 +12,8 @@ const Map =({ data })=> {
       }
       zoom={7}
       scrollWheelZoom={false}
-    className=" h-[330px] w-[330px] md:h-[500px] md:w-[500px] xl:h-[650px] xl:w-[650px]  mt-4 md:mt-10 rounded-xl"
-    >
+    className=" h-full w-full rounded-xl"
+    > 
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

@@ -1,3 +1,3 @@
 import PostList from "./PostList";
-import PostDetail from "./Detail";
+import PostDetail from "./PostDetail";
 export {PostList , PostDetail}
