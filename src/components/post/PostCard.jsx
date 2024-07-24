@@ -3,7 +3,7 @@ import { MdBedroomParent } from "react-icons/md";
 import { IoMdPin, IoIosSave, IoMdChatboxes } from "react-icons/io";
 import { MdBathroom } from "react-icons/md";
 
-const iconsStyle = { fontSize: "20px", color: "black" };
+const iconsStyle = { fontSize: "20px", color: "rgb(24 24 27)" };
 const PostCard = ({ item }) => {
   return (
     <div className="w-80 flex flex-col my-4 bg-white pt-3 pb-1 px-2  rounded-xl items-center">

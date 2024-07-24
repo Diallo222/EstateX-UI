@@ -48,7 +48,7 @@ const Filter = () => {
             Type
           </label>
           <select
-            className="rounded-xl mt-1"
+            className="rounded-xl mt-1 text-black"
             name="type"
             id="type"
             onChange={handleChange}
@@ -64,7 +64,7 @@ const Filter = () => {
             Property
           </label>
           <select
-            className="rounded-xl mt-1"
+            className="rounded-xl mt-1 text-black"
             name="property"
             id="property"
             onChange={handleChange}
@@ -82,7 +82,7 @@ const Filter = () => {
             Min Price
           </label>
           <input
-            className="rounded-xl mt-1"
+            className="rounded-xl mt-1 text-black"
             type="number"
             id="minPrice"
             name="minPrice"
@@ -96,7 +96,7 @@ const Filter = () => {
             Max Price
           </label>
           <input
-            className="rounded-xl mt-1"
+            className="rounded-xl mt-1 text-black"
             type="text"
             id="maxPrice"
             name="maxPrice"
@@ -110,7 +110,7 @@ const Filter = () => {
             Bedroom
           </label>
           <input
-            className="rounded-xl mt-1"
+            className="rounded-xl mt-1 text-black"
             type="text"
             id="bedroom"
             name="bedroom"

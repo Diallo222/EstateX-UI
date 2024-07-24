@@ -1,4 +1,3 @@
-import { useLoaderData } from "react-router-dom";
 import { IoMdPin } from "react-icons/io";
 import { FaTools, FaPaw, FaMoneyBillAlt, FaRuler, FaBed, FaBath, FaSchool, FaBus, FaUtensils, FaComments } from 'react-icons/fa';
 import { Map } from "../../components/map";
